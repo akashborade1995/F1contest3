@@ -1,0 +1,170 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.main{
+    background-color: antiquewhite;
+    width: 90vw;
+    margin: auto;
+}
+.navbar{
+    width: 80vw;
+}
+.navbar>a{
+    text-decoration: none;
+    color: black;
+}
+.navbar_right{
+    display:flex;
+    justify-content: space-around;
+    padding-inline: 10px;
+}
+.navbar_right>input{
+text-align: center;
+border: 1px solid rgb(226, 222, 222);
+border-radius: 10px;
+margin: 5px;
+}
+.navbar_right>button{
+    background-color: rgb(240, 13, 13);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(243, 10, 10);
+    padding: 8px;
+    margin: 5px;
+}
+.hero{
+    background-color: rgb(253, 247, 238);
+    width: 90vw;
+    margin: auto;
+    margin-top: 100px;
+}
+.left_1{
+    /* margin-top: 100px; */
+    width: 70vw;
+    height: 500px;
+    padding-inline: 10px;
+}
+.left_1>h6{
+    background-color: transparent;
+    color:rgb(240, 13, 13);
+    border: 10px solid rgb(253, 247, 238);
+    padding: 20px;
+    /* font-size: 15px; */
+    font-family:poppins;
+    font-size: 22px;
+    font-weight: 500;
+    text-align:left;
+}
+.left_1>h2{
+    width: 500px;
+    height: 210px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: left;
+    color:rgba(33, 34, 68, 1);
+    font-family:poppins;
+    padding: 5px;
+
+}
+.left_1>p{
+    width: 500px;
+    height: 210px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(105, 105, 123, 1);
+}
+.left_1>button{
+    width: 174px;
+    height: 60px;
+    /* top: 660px; */
+    left: 254px;
+    border-radius: 16px;
+    background-color:rgba(249, 74, 61, 1);
+    padding:10px;
+    border: none;
+}
+.hero_right>img{
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.middle{
+    width: 90vw;
+    background-color: rgb(253, 247, 238);
+    position: relative;
+    top: 100px;
+    left: 50px;
+    right: 100px;
+   
+}
+.middle>img{
+    width: 80vw;
+    padding: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    right: 200px;
+
+}
+.middle2{
+    background-color: rgb(253, 247, 238);
+    width: 90vw;
+    margin-top: 150px;
+    margin-left: 55px;
+    /* margin: auto; */
+}
+.fast>a{
+    Width: 600px;
+    text-align: center;
+    padding-inline: 5px;
+    padding-left: 100px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    color:  rgba(33, 34, 68, 1);
+    
+}
+#f_food{
+    color: rgb(249, 10, 10);
+    font-weight: 500;
+    text-decoration: underline;
+    /* padding: 2px; */
+}
+.middle2>div>h4{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.element>img{
+    width: 250px;
+}
+.lady{
+    width: 90vw;
+}
+.lady>img{
+    width: 911px;
+    height: 593px;
+    margin-left: 200px;
+    border-radius: 15px;
+    
+}
+.call{
+    background-image: url(./Call\ to\ Action.svg);
+    width: 90vw;
+    height: 500px;
+}
+.call>img{
+    padding-top: 15px;
+}
